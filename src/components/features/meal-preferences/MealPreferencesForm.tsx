@@ -2,10 +2,10 @@ import { memo } from "react";
 import { Button } from "@/components/ui/button";
 import { useMealPreferences } from "@/hooks/useMealPreferences";
 import { useEditMode } from "@/hooks/useEditMode";
-import FavoriteFoodsSection from "@/components/meal-preferences/FavoriteFoodsSection";
-import DislikedFoodsSection from "@/components/meal-preferences/DislikedFoodsSection";
-import AllergiesSection from "@/components/meal-preferences/AllergiesSection";
-import SpecialInstructionsSection from "@/components/meal-preferences/SpecialInstructionsSection";
+import FavoriteFoodsSection from "./FavoriteFoodsSection";
+import DislikedFoodsSection from "./DislikedFoodsSection";
+import AllergiesSection from "./AllergiesSection";
+import SpecialInstructionsSection from "./SpecialInstructionsSection";
 
 const MealPreferencesForm = memo(() => {
   const mealPrefs = useMealPreferences();
