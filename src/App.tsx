@@ -2,6 +2,7 @@ import "./App.css";
 import MealPreferencesForm from "./components/layout/MealPreferencesForm";
 import AppHeader from "./components/features/user-profile/UserProfileHeader";
 import { Toaster } from "sonner";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const handleEmail = () => {
@@ -29,6 +30,7 @@ function App() {
         <MealPreferencesForm />
       </div>
       <Toaster />
+      <Analytics />
     </div>
   );
 }

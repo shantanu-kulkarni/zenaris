@@ -9,7 +9,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import FoodSearchInput from "@/components/ui/food-search-input";
-import FoodItem from "./FoodItem";
+import FoodItem from "@/components/meal-preferences/FoodItem";
 import type { FavoriteFood } from "@/hooks/useMealPreferences";
 
 interface FavoriteFoodsSectionProps {
